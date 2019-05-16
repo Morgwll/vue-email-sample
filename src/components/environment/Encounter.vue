@@ -73,6 +73,7 @@ export default {
                 martialProwess: target.martialProwess, 
                 damageBonus: target.damageBonus,
                 actions: target.actions,
+                classActions: target.classActions,
                 defenseValue: target.defenseValue,
                 hitpoints: target.hitpoints,
                 tempHitpoints: target.tempHitpoints, 

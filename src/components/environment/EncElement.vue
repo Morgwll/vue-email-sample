@@ -61,6 +61,13 @@
                 <option v-for="(action, index) in character.actions" :key="index">{{ action.name }}</option>
             </select>
         </div>
+        <div id="actionChoice" class="actionChoice" v-if="character.characterClass === 'pc'">
+            Class Actions:
+            <select v-model="selectClassAction" id="actionChoiceSelect" @change="classAction(targets.indexOf(character))">
+                <option default disabled selected>-- Select Class Action --</option>
+                <option v-for="(action, index) in character.classActions" :key="index">{{ action.name }}</option>
+            </select>
+        </div>
         <div id="weaponChoice" class="weaponChoice" v-if="character.type === 'creature'">
             Weapon:
             <select v-model="selectWeapon" @change="chooseWeapon(selectWeapon)">
@@ -68,9 +75,9 @@
                 <option v-for="(weapon, i) of character.weapons" :key="i">{{ weapon.name }}</option>
             </select>
         </div>
-        <div class="buttonContainer">
-            <button @click="universalCheck(attackValue, defenseValue)" v-if="character.type === 'creature'">Roll</button>
-            <button @click="sceneryRun(selectedTarget[0].stats, character.saveDiff, character.saveStat, character.damage)" v-else>Roll</button>
+        <div class="rollButtonContainer">
+            <button @click="universalCheck(attackValue, defenseValue)" v-if="character.type === 'creature'" class="rollButton">Roll</button>
+            <button @click="sceneryRun(selectedTarget[0].stats, character.saveDiff, character.saveStat, character.damage)" v-else class="rollButton">Roll</button>
         </div>
     </div>
 </template>
@@ -81,9 +88,11 @@ import mixins from '../../mixins.js';
         data() {
             return {
                 selectAction: '-- Select Action --',
+                selectClassAction: '-- Select Class Action --',
                 selectTarget: '-- Select Target --',
                 selectWeapon: '-- Select Weapon --',
                 selectedAction: '',
+                selectedClassAction: '',
                 selectedTarget: {},
                 selectedWeapon: {},
                 charIndex: 0,
@@ -219,7 +228,22 @@ import mixins from '../../mixins.js';
                     document.getElementsByClassName('weaponChoice')[index].style.display ="none";
                     this.attackValue = (this.character.charisma - 10) / 2;
                     this.defenseValue = this.selectedTarget[0].pPerception;
+                } else if (this.selectAction == "Climb") {
+                    document.getElementsByClassName('weaponChoice')[index].style.display ="none";
+                    this.attackValue = (this.character.stats.dex - 10) / 2;
+                    this.defenseValue = 11;
+                } else if (this.selectAction == "Balance") {
+                    document.getElementsByClassName('weaponChoice')[index].style.display ="none";
+                    this.attackValue = (this.character.stats.dex - 10) / 2;
+                    this.defenseValue = 11;
+                } else if (this.selectAction == "Perception") {
+                    document.getElementsByClassName('weaponChoice')[index].style.display ="none";
+                    this.attackValue = (this.character.stats.dex - 10) / 2;
+                    this.defenseValue = 11;
                 }
+            },
+            classAction(target) {
+                console.log("the target" + target, "the selected class action " + this.selectedClassAction);
             },
             sceneryRun(active, passive, stat, damage) {
                 let roll = this.rollDice(20);
