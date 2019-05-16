@@ -1,0 +1,71 @@
+{
+    "name": "Alien Fantasy",
+    "environment": {
+        "title": "Alien Fantasy",
+        "font-family": "",
+        "background": "",
+        "blurb": "",
+        "menus": [
+            {
+                "name": "story",
+                "icon": "",
+                "submenu": [
+                    {
+                        "name": "plots",
+                        "icon": "",
+                        "route": "plots"
+                    },
+                    {
+                        "name": "locations",
+                        "icon": "",
+                        "route": "locations"
+                    },
+                    {
+                        "name": "lore",
+                        "icon": "",
+                        "route": "lore"
+                    },
+                    {
+                        "name": "pantheon",
+                        "icon": "",
+                        "route": "pantheon"
+                    }
+                ]
+            },
+            {
+                "name": "characters",
+                "icon": "",
+                "submenu": [
+                    {
+                        "name": "pcs",
+                        "icon": "",
+                        "route": "pcs"
+                    },
+                    {
+                        "name": "npcs",
+                        "icon": "",
+                        "route": "npcs"
+                    },
+                    {
+                        "name": "creatures",
+                        "icon": "",
+                        "route": "creatures"
+                    }
+                ]
+            },
+            {
+                "name": "stash",
+                "icon": "",
+                "submenu": [
+                    {
+                        "weapons": [],
+                        "armor": [],
+                        "trinkets": [],
+                        "food": [],
+                        "drink": []
+                    }
+                ]
+            }
+        ]
+    }
+}
