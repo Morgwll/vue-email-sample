@@ -169,6 +169,7 @@ import mixins from '../../mixins.js';
             },
             chooseAction(index) {
                 if(this.selectAction == "Attack") {
+                    console.log('chosen attack for an action')
                     document.getElementsByClassName('weaponChoice')[index].style.display ="block";
                     this.attackValue = this.character.martialProwess;
                     this.defenseValue = this.selectedTarget[0].defenseValue;
@@ -236,6 +237,10 @@ import mixins from '../../mixins.js';
                     document.getElementsByClassName('weaponChoice')[index].style.display ="none";
                     this.attackValue = (this.character.stats.dex - 10) / 2;
                     this.defenseValue = 11;
+                } else if (this.selectAction == "Jump") {
+                    document.getElementsByClassName('weaponChoice')[index].style.display ="none";
+                    this.attackValue = ((this.character.stats.dex - 10) / 2) + ((this.character.stats.str - 10) / 2) / 2;
+                    this.defenseValue = 13;
                 } else if (this.selectAction == "Perception") {
                     document.getElementsByClassName('weaponChoice')[index].style.display ="none";
                     this.attackValue = (this.character.stats.dex - 10) / 2;

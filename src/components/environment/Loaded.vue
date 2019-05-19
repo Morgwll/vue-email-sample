@@ -11,18 +11,22 @@
                 <div class="leftMenuTab menuTab pantheonMenuTab" @click="pantheonMenu()"><i class="fas fa-ankh"></i></div>
                 <div class="leftMenuTab menuTab locationsMenuTab" @click="locationsMenu()"><i class="fas fa-globe-europe"></i></div>
                 <ul>
-                <li draggable @dragend="addTarget(target)" @click="addTarget(target)" v-for="(button, index) in menus" :key="index">{{ button.name }}</li>
+                <li draggable @dragend="addElement(element)" @click="addElement(element)" v-for="(element, index) in menus" :key="index"><img :src="element.image">{{ element.type }}</li>
                 </ul>
             </div>
         </div>
+        <ul>
+            <li v-for="(storyElement, index) of $store.state.storyElements" :key="index">{{ storyElement.type }}</li>
+        </ul>
         <div class="buttonContainer"><router-link tag="button" to="/encounter">Go to Encounter</router-link></div>
     </div>
 </template>
 <script>
     export default {
-        
         data() {
-            const menus = [
+            let storyEls = this.$store.state.storyElements;
+            let menus = this.$store.state.worlds[0].environment.plots;
+            /*const menus = [
                 {
                     "name": "Story",
                     "icon": "more",
@@ -133,7 +137,7 @@
                         "route": "/route"
                     }]
                 }
-            ]
+            ]*/
             const content = {
                     "title": this.$store.state.selectedGame.name,
                     "lastDescription": this.$store.state.selectedGame.synopsis
@@ -149,9 +153,12 @@
                 leftMenu.classList.toggle('hiddenLeftMenu');
             },
             storyMenu() {
+                this.menus = this.$store.state.worlds[0].environment.plots;
                 this.hideLeftMenu();
             },
             beingsMenu() {
+                this.menus = this.$store.state.worlds[0].environment.beings;
+                console.log(this.menus)
                 this.hideLeftMenu();
             },
             inventoryMenu() {
@@ -165,6 +172,9 @@
             },
             locationsMenu() {
                 this.hideLeftMenu();
+            },
+            addElement(element) {
+                this.$store.state.storyElements.push(element);
             }
         }
     }

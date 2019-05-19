@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import raven from './worlds/ravenstorm.json';
-import alien from './worlds/alien-fantasy.json';
+import metal from './worlds/heavy-metal.json';
 import games from './games/games.json';
 
 Vue.use(Vuex);
@@ -10,7 +10,7 @@ let selectedGame = raven;
 
 export const store = new Vuex.Store({
     state: {
-        worlds: [raven, alien],
+        worlds: [raven, metal],
         char: {
             statNumbers: 54,
             index: null,
@@ -52,6 +52,7 @@ export const store = new Vuex.Store({
         selectedAction: '-- Select Action --',
         selectedTarget: {},
         resultMessage: '',
+        storyElements: [],
         characterList: [
             {
                 "portrait": '',
@@ -85,6 +86,7 @@ export const store = new Vuex.Store({
                     { "name" : "Perception"},
                     { "name" : "Balance"},
                     { "name" : "Climb"},
+                    { "name" : "Jump"},
                     { "name" : "Persuade"},
                     { "name" : "Intimidate"},
                     { "name" : "Manipulate Mechanism"}
@@ -146,6 +148,7 @@ export const store = new Vuex.Store({
                     { "name" : "Perception"},
                     { "name" : "Balance"},
                     { "name" : "Climb"},
+                    { "name" : "Jump"},
                     { "name" : "Persuade"},
                     { "name" : "Intimidate"},
                     { "name" : "Manipulate Mechanism"}
@@ -206,6 +209,7 @@ export const store = new Vuex.Store({
                     { "name" : "Haggle"},
                     { "name" : "Perception"},
                     { "name" : "Balance"},
+                    { "name" : "Jump"},
                     { "name" : "Climb"},
                     { "name" : "Persuade"},
                     { "name" : "Intimidate"},
