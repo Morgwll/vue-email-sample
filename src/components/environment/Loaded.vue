@@ -19,9 +19,15 @@
                 </ul>
             </div>
         </div>
-        <ul>
-            <li v-for="(storyElement, index) of $store.state.storyElements" :key="index">{{ storyElement.type }}</li>
-        </ul>
+        <div v-if="shown !== ''">
+            <img :src="portraitChooser(shown)">
+            {{ shown.characterType }}
+        </div>
+        <div v-else-if="shown === ''">
+            <ul>
+                <li v-for="(storyElement, index) of $store.state.storyElements" :key="index">{{ storyElement.type }}</li>
+            </ul>
+        </div>
         <div class="buttonContainer"><router-link tag="button" to="/encounter">Go to Encounter</router-link></div>
     </div>
 </template>
@@ -39,6 +45,7 @@
             const locations = this.$store.state.worlds[chosenWorld].environment.locations;
             const pantheon = this.$store.state.worlds[chosenWorld].environment.pantheon;
             let menus = this.$store.state.worlds[chosenWorld].environment.plots;
+            let shown = "";
             const content = {
                 "title": this.$store.state.selectedGame.name,
                 "lastDescription": this.$store.state.selectedGame.synopsis
@@ -50,6 +57,7 @@
                 weaponry,
                 inventory,
                 pantheon,
+                shown,
                 content,
                 portents,
                 locations,
@@ -60,9 +68,11 @@
             hideLeftMenu() {
                 let leftMenu = document.getElementById('leftMenu');
                 leftMenu.classList.toggle('hiddenLeftMenu');
+                this.shown = '';
             },
             storyMenu() {
                 this.menus = this.storyEls;
+                
                 this.hideLeftMenu();
             },
             beingsMenu() {
@@ -93,7 +103,7 @@
                 this.$store.state.storyElements.push(element);
             },
             showElement(element) {
-                console.log(element);
+                this.shown = element;
             }
         }
     }
