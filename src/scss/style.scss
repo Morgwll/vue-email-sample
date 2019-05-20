@@ -74,17 +74,20 @@ body {
 .monsterMenuTab, .beingsMenuTab {
     top: 110px;
 }
-.sceneryMenuTab, .inventoryMenuTab {
+.sceneryMenuTab, .weaponryMenuTab {
     top: 180px;
 }
-.portentsMenuTab {
+.inventoryMenuTab {
     top: 250px;
 }
-.pantheonMenuTab {
+.portentsMenuTab {
     top: 320px;
 }
-.locationsMenuTab {
+.pantheonMenuTab {
     top: 390px;
+}
+.locationsMenuTab {
+    top: 460px;
 }
 .menuTab {
     background-color: rgba(0, 0, 0, 0.6);

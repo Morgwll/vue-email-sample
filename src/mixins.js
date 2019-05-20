@@ -47,6 +47,12 @@ Vue.mixin({
             };
             return name + rest + end;
         },
+        portraitChooser(target) {
+            let result = Object.keys(target.portrait).map(key => {
+                return [Number(key), target.portrait[key]];
+            });
+            return result[0][1];
+        },
         rollDice(sides) {
             this.rollResult = Math.floor((Math.random() * sides) + 1);
             return this.rollResult;

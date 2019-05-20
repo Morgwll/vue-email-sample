@@ -40,6 +40,7 @@
 <script>
 import mixins from '../../mixins.js';
 import encounterElement from './EncElement.vue';
+
 export default {
     components: {
         encounterElement
@@ -105,12 +106,6 @@ export default {
             for(let children in roster) {
                 roster.appendChild(roster.children[Math.random() * children | 0]);
             }
-        },
-        portraitChooser(target) {
-            let result = Object.keys(target.portrait).map(key => {
-                return [Number(key), target.portrait[key]];
-            });
-            return result[0][1];
         },
         closeModal() {
             document.getElementById('modalOverlay').style.display = 'none';
