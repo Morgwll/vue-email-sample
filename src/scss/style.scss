@@ -290,7 +290,6 @@ body {
     color: #000;
 }
 .buttonContainer {
-    //width: 100%;
     margin: 10px 15px;
     display: flex;
     align-items: center;
@@ -306,4 +305,48 @@ body {
 }
 .hidden {
     display: none;
+}
+.modal {
+    display: none;
+    margin: 10px;
+    padding: 20px;
+    max-width: 500px;
+    border: 1px solid #000;
+    opacity: 0;
+    transition: .3s;
+    position: relative;
+    input {
+        margin: 5px 0;
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        &::placeholder {
+            font-style: italic;
+        }
+    }
+}
+.logIn {
+
+}
+.signIn {
+    display: none;
+}
+.revealed {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
+.close {
+    font-size: 2rem;
+    line-height: 2rem;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.noAccount {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    font-size: .8rem;
+    cursor: pointer;
 }
