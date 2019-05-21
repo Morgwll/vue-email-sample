@@ -4,11 +4,16 @@
         "plague": "a terrible farming plague",
         "disease": "a terrible disease",
         "natural": "a devastating natural disaster",
-        "curse": "a terrible curse"
+        "curse": "a terrible curse",
+        "invasion": "an invasion from a different plane",
+        "zombies": "the dead are not resting in their graves",
+        "madness": "people seems to be losing their minds, plagued with nightmares and visions"
       },
       "minor": {
         "famine": "a horrible famine",
         "curse": "a horrible curse",
+        "entity": "a terrible entity that has awakened",
+        "poverty": "the local government has run out of coin",
         "political": "a time of political distrust",
         "predator": "a terrifying predator"
       }

@@ -4,6 +4,7 @@ body {
     font-family: "New Rocker", Century Gothic;
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 .encounterList {
@@ -362,6 +363,10 @@ body {
     img {
         max-width: 30%;
     }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
 }
 .loadedDisplayContainer {
     display: flex;
@@ -377,4 +382,17 @@ body {
         margin: 0 10px;
         width: 70%;
     }
+}
+.storyContent {
+    margin: 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #4C3823;
+    width: calc(70% - 30px);
+}
+.story {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 10px 0;
 }

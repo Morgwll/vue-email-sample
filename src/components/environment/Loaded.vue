@@ -29,7 +29,7 @@
         <div v-else-if="shown === ''" class="loadedDisplayPanel">
             <ul>
                 <li v-for="(storyElement, index) of $store.state.storyElements" :key="index">
-                    <h3>{{ storyElement }}</h3>
+                    <div v-html="storyElement" class="story"></div>
                 </li>
             </ul>
         </div>
@@ -174,7 +174,7 @@
                 const externalPlot = this.chooseOption(choosy[option]);
                 const yesNo = this.booleanGen();
                 if(yesNo == 0) {
-                    return "Also, " + externalPlot + " is affecting the region.";
+                    return " Also, " + externalPlot + " is affecting the region.";
                 } else {
                     return "";
                 }
@@ -184,7 +184,7 @@
                 const plotTwist = this.chooseOption(plots.plotTwist);
                 const yesNo = this.booleanGen();
                 if(yesNo == 0) {
-                return  " but unbeknownst to the heroes, " + plotTwist;
+                return  "...but unbeknownst to the heroes, " + plotTwist;
                 } else {
                 return "";
                 }
@@ -221,8 +221,8 @@
             },
             plotGenerator(env) {
                 console.log("the display ", env);
-                //const title = env.characterClass;
-                //const portrait = env.portrait;
+                const title = env.characterClass;
+                const portrait = env.portrait;
                 const extNum = this.booleanGen();
                 const monthNum = Math.floor(Math.random() * 12);
                 const dayNum = Math.floor(Math.random() * 7);
@@ -235,7 +235,8 @@
                 const extPlot = this.externalPlot(extNum);
                 const plotTwist = this.plotTwist();
                 const religiousPlot = this.religiousPlot();
-                this.story = "It is the " + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". " + npc + ". " + time + extPlot + religiousPlot + plotTwist;
+                /*this.story = "It is the " + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". " + npc + ". " + time + extPlot + religiousPlot + plotTwist;*/
+                this.story = "<img src='" + portrait + "' /><div class='storyContent'><h3>" + title + "</h3>" + "<p>It is the" + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". </p><p>" + npc + ". " + time + extPlot + religiousPlot + "<p>" + plotTwist + "</p></div>";
             },
         }
     }
