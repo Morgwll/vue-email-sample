@@ -158,6 +158,18 @@
                 "route": "minor-plot"
             },
             {
+                "characterClass": "Beer",
+                "description": "",
+                "portrait": ["https://i.pinimg.com/originals/83/b3/fb/83b3fb93f689f36021fe9dc1477bbf7e.jpg"],
+                "route": "minor-plot"
+            },
+            {
+                "characterClass": "Giant's Beer",
+                "description": "",
+                "portrait": ["https://cdna.artstation.com/p/assets/images/images/002/988/372/large/andre-meister-andremeister-dwarf.jpg?1468183720"],
+                "route": "minor-plot"
+            },
+            {
                 "characterClass": "Mead",
                 "description": "", 
                 "portrait": ["https://thumbs.dreamstime.com/z/barrel-11050360.jpg"],
@@ -302,67 +314,67 @@
             {
                 "characterClass": "Curse",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://i.pinimg.com/originals/51/98/8b/51988b770c5de63c939e5207ee86d128.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Blessing",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://i.pinimg.com/originals/2c/44/6e/2c446e932f0e72f6a756884bef7e4059.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Telekinesis",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://i.warosu.org/data/tg/img/0367/88/1418702014220.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Charm",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://i.pinimg.com/originals/71/9a/6f/719a6fe9b115d4f042b80e92d993ba76.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Light Fire",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["http://th07.deviantart.net/fs70/PRE/i/2010/169/b/0/Fire_mage_by_Eliag1101.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Terror",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://i.pinimg.com/originals/70/c8/c3/70c8c3561a29fd28cbfa6baea8e40359.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Illusion of Self",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://i.pinimg.com/originals/59/df/2f/59df2f5c6b4d9d07dc973a25e390e87a.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Awaken Elder God",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://scontent-lga3-1.cdninstagram.com/vp/b11eeff68c6e49258ac53a80a16e2e6a/5D695B22/t51.2885-15/e15/c236.0.607.607a/56213865_2057872174341004_3989982013542902704_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Attain Immortality",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["http://www.epilogue.net/sites/default/files/imagecache/gallery_lg/images/02/41/13768_1034568000.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Abomination",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["https://i.pinimg.com/originals/ca/c3/2a/cac32a36514df1855e6b914f003cb023.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Resurrect Dead",
                 "description": "", 
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "portrait": ["http://coolvibe.com/wp-content/uploads/2012/10/Fantasy-Art-Jessada-Sutthi-Necromancer.jpg"],
                 "route": "minor-plot"
             }
         ],
