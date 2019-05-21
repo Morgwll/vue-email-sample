@@ -313,7 +313,7 @@
         "portents": [
             {
                 "characterClass": "Curse",
-                "description": "", 
+                "description": "<p>There are many different beings, including humans, that can curse someone. These curses take many different shapes. As opposed to what people believe, they do not affect the victim in combat but rather in their every day life, constantly and mercilessly.</p><p>Maybe the powerful merchant starts losing their gold and wares, then their home and family, until nothing is left of them except a beggar. Maybe the beautiful courtisan starts getting a rash in their face until nobody wants to lay with them in bed</p><p>Curses are an excellet tool for the Narrator to use and stir the plot when a player has not been taking their own decisions seriously at crucial points of the adventure/</p><b>It is up to the story itself on how a character will get cleared of the curse.</b>", 
                 "portrait": ["https://i.pinimg.com/originals/51/98/8b/51988b770c5de63c939e5207ee86d128.jpg"],
                 "route": "minor-plot"
             },
@@ -1935,7 +1935,7 @@
             ]
         },
         {
-            "description": "", 
+            "description": "<p>A Dragon is, basically speaking, a very large reptilian that for some reason has managed to grow to disproportionate size. They are instinctive, savage, incredibly strong and fast. Not many people live to tell the story when they encounter a Dragon, as they reach speeds of 100ft per second and capable of jumping to up to 40ft.</p><p>According to folklore Dragons are capable of flight and breathe fire, which isn't true. Not that this makes them less lethal. They use their tonge to taste the air for prey and locate their target from even the most obscure hidden places. The question is not if the Dragon will find you, but more why is it taking so long to kill you.</p><p>They are cold blooded, so they prefer basking in the sun rather than living in the dark. They inhabit caves but their only predators are giant rocs, and only in their infancy</p><p>A Dragon's reproductive cycle lasts a few years and their eggs are quite valuable if brought in intact</p><p>They are incapable of speech and can't be domesticated, although some tribes have submitted sacrifices to them in order to appease them, they will eat anything within their reach before they retire to digest their prey</p><p>Although it is not unknown for an individual to claim to have killed a Dragon, the only stories that can be believed come from people who are either terribly mangled (them being the lucky ones in their group) or people who have used their wits and their environment to their advantage, as a direct confrontation with a Dragon most certainly spells death.</p><p>Luckily for everybody Dragons live in isolated areas, as most life prefers to stir away from their turf. As such they are very territorial and precious of their scarce prey, so unless for it is for reproduction, Dragons are quite good at killing each other, and they never let the corpses of their kin to go to waste.</p><p>Their habitat is quite varied, and you can find them pretty much anywhere except in the Arctic areas, it being too cold for them.</p><p>Dragons tend to live in places littered with weapons, armor, skeletons and more than a few coins. They don't have use for these things, yet they naturally end there from the hundreds of adventurers whose stupidity led them to try their luck at hunting these giant lizards.", 
             "portrait": {
                 "female": "https://img00.deviantart.net/5fb1/i/2010/014/4/b/lizard_by_akiman.jpg",
                 "male": "https://img00.deviantart.net/5fb1/i/2010/014/4/b/lizard_by_akiman.jpg"
@@ -1950,30 +1950,26 @@
             "age": 26, 
             "stats": 
                 { 
-                    "str": 18, 
-                    "dex": 14, 
-                    "con": 14, 
-                    "sta": 10, 
-                    "app": 8, 
-                    "pow": 12
+                    "str": 60, 
+                    "dex": 40, 
+                    "con": 70, 
+                    "sta": 30, 
+                    "app": 12, 
+                    "pow": 13
                 }, 
             "martialProwess": 7, 
             "damageBonus": 20, 
             "defenseValue": 22, 
-            "hitpoints": 700, 
+            "hitpoints": 350, 
             "tempHitpoints": 700, 
             "sanity": 50, 
             "charisma": 12,
             "actions": [
                 { "name" : "Attack"},
-                { "name" : "Curse"},
-                { "name" : "Bless"},
                 { "name" : "Heal"},
                 { "name" : "Haggle"},
                 { "name" : "Persuade"},
-                { "name" : "Intimidate"},
-                { "name" : "Pickpocket"}, 
-                { "name" : "Manipulate Mechanism"}
+                { "name" : "Intimidate"}
             ], 
             "pPerception":  11, 
             "weapons": [{                              

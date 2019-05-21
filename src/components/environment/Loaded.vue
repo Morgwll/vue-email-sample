@@ -102,11 +102,10 @@
             hideLeftMenu() {
                 let leftMenu = document.getElementById('leftMenu');
                 leftMenu.classList.toggle('hiddenLeftMenu');
-                this.shown = '';
             },
             storyMenu() {
                 this.menus = this.storyEls;
-                
+                this.shown = '';
                 this.hideLeftMenu();
             },
             beingsMenu() {
@@ -235,8 +234,7 @@
                 const extPlot = this.externalPlot(extNum);
                 const plotTwist = this.plotTwist();
                 const religiousPlot = this.religiousPlot();
-                /*this.story = "It is the " + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". " + npc + ". " + time + extPlot + religiousPlot + plotTwist;*/
-                this.story = "<img src='" + portrait + "' /><div class='storyContent'><h3>" + title + "</h3>" + "<p>It is the" + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". </p><p>" + npc + ". " + time + extPlot + religiousPlot + "<p>" + plotTwist + "</p></div>";
+                this.story = "<img src='" + portrait + "' /><div class='description'><h3>" + title + "</h3>" + "<p>It is the " + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". </p><p>" + npc + ". " + time + extPlot + religiousPlot + "<p>" + plotTwist + "</p></div>";
             },
         }
     }

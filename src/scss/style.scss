@@ -352,7 +352,7 @@ body {
     cursor: pointer;
 }
 .loadedDisplayPanel {
-    width: 100%;
+    width: calc(100% - 80px);
     max-width: 950px;
     border: 3px solid #4C3823;
     background-color: rgba(191, 127, 63, 0.8);
@@ -364,6 +364,9 @@ body {
     }
     img {
         max-width: 30%;
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
     }
     ul {
         list-style-type: none;
@@ -375,17 +378,11 @@ body {
     justify-content: center;
     align-items: start;
     box-sizing: border-box;
-    @media only screen and (max-width: 786px) {
+    @media only screen and (max-width: 768px) {
         display: block;
     }
-    .description {
-        padding: 10px;
-        border: 1px solid #4C3823;
-        margin: 0 10px;
-        width: 70%;
-    }
 }
-.storyContent {
+.description {
     margin: 0 15px;
     padding: 15px;
     box-sizing: border-box;
@@ -393,7 +390,9 @@ body {
     width: calc(70% - 30px);
     background-color: rgba(255, 255, 255, .5);
     border-radius: 5px;
-
+    @media only screen and (max-width: 768px) {
+        width: calc(100% - 30px);
+    } 
 }
 .story {
     display: flex;
