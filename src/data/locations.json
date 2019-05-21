@@ -1,0 +1,40 @@
+[
+    {"location": [
+      {"size": [
+        {"tavern": "an area with a tavern in it"},
+        {"outpost": "an outpost in the outskirts of a region"},
+        {"village": "a village"},
+        {"city": "a small city"},
+        {"capital": "a capital city"}
+      ]},
+      {"culture": [
+        {"religiousness": [
+          {"religious": "religious"},
+          {"secular": "secular"}
+        ]},
+        {"inclusiveness": [
+          {"mr": "mildly Racist"}, 
+          {"sr": "strongly racist"}, 
+          {"ms": "mildly sexist"}, 
+          {"ss": "strongly sexist"}, 
+          {"i": "Inclusive"}, 
+          {"mx": "mildly xenophobic"}, 
+          {"sx": "strongly xenophobic"}
+        ]},
+        {"political": [
+          {"farRight": "a far-right political system"},
+          {"right": "a right wing political system"},
+          {"left": "a left wing political system"},
+          {"farLeft": "a far-left political system"}
+        ]}
+      ]},
+      {"government": [
+        {"monarchic": "run by an absolutist monarch"},
+        {"aristocratic": "run by the aristocracy"},
+        {"merchantile": "run by the merchants"},
+        {"dictatorship": "run by a military leader"},
+        {"democratic": "run by an elected group of individuals"},
+        {"theocracy": "run by a religious leader"}
+      ]}
+    ]}
+  ]

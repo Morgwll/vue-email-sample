@@ -7,61 +7,73 @@
         "plots": [
             {
                 "characterClass": "Main Plot",
+                "description": "", 
                 "portrait": ["https://www.gannett-cdn.com/media/2017/09/21/USATODAY/USATODAY/636415913442262218-GettyImages-481013807.jpg?width=1080&quality=50"],
                 "route": "main-plot"
             },
             {
                 "characterClass": "Minor Urban Plot",
+                "description": "", 
                 "portrait": ["https://rpg.ambient-mixer.com/images_template/f/1/7/f1763e12d49d3ef38278fb3473f1ec16_full.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Forest Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/6f/c6/d5/6fc6d561028d946f08c98148c1f1a8f3.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Desert Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/0a/9e/e2/0a9ee2a5e42bb5f24a4d0bd8a2652767.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Steppes Plot",
+                "description": "", 
                 "portrait": ["https://cdnb.artstation.com/p/assets/images/images/011/024/203/large/amos-yan-ffxiv-bg-speedpaint.jpg?1527488177"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Jungle Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/dd/3f/46/dd3f4621c91e3401e555cf4a42204021.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Mountains Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/736x/ef/f0/5b/eff05b35bb0824467634372d81d8550a.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Arctic Plot",
+                "description": "", 
                 "portrait": ["https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/121935800/original/ec72e33327ce1f7f85fb9d5a1ab3edaef4c6de55/draw-illustration-for-you.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Interdimensional Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/d0/d5/12/d0d512fa230d9162b52111be3c28ab1a.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Court Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/bf/0d/a1/bf0da11a8607b210706bb2e2c85502a3.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Dungeon Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/ad/48/47/ad48473365ace99a8ccf26ebd6ff6543.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Minor Sea Plot",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/82/cc/cc/82cccc8ea52b5936e407aff6be29fc83.jpg"],
                 "route": "minor-plot"
             }
@@ -69,81 +81,97 @@
         "inventory": [
             {
                 "characterClass": "Gold Piece",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/ef/4a/3c/ef4a3c259a7bc796b8ee10755713b611.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Silver Piece",
+                "description": "", 
                 "portrait": ["http://nebula.wsimg.com/13db16fd8005e2fd0f7e0e541a76c233?AccessKeyId=ACFBBC4C4391ACA1C912&disposition=0&alloworigin=1"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Copper Piece",
+                "description": "", 
                 "portrait": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpFOn3hRgszpPwxrbq1D5bjFsKF4vjhyd3U9CPzbal5NzF0H6yA"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Bandage",
+                "description": "", 
                 "portrait": ["https://vignette.wikia.nocookie.net/granblue/images/4/4e/Ancient_Bandages.png/revision/latest/scale-to-width-down/600?cb=20161007002920"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Bread",
+                "description": "", 
                 "portrait": ["https://img.freepik.com/free-vector/freshly-baked-multigrain-bread-hand-drawn-illustration_53876-2662.jpg?size=338&ext=jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Bacon",
+                "description": "", 
                 "portrait": ["https://i.etsystatic.com/10185029/r/il/7ddc49/1558175531/il_794xN.1558175531_hs99.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Dried Meat",
+                "description": "", 
                 "portrait": ["https://image.shutterstock.com/image-photo/drycured-pork-sketch-illustration-on-260nw-1339716011.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Pickled Cabbage",
+                "description": "", 
                 "portrait": ["https://st.depositphotos.com/1701169/4601/v/950/depositphotos_46013803-stock-illustration-a-jar-of-pickled-fresh.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Stew",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/a2/68/e8/a268e86b68b15ca1828d98297cb6c6cb.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Sausages",
+                "description": "", 
                 "portrait": ["https://static.vecteezy.com/system/resources/thumbnails/000/383/526/small/dw2-noon-sasi-37-03-gastropub.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Roast Chicken",
+                "description": "", 
                 "portrait": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvf5U51TpjHxCpE9mqxPkFPKQtAL7O7Hzm3JFxQrDAmML3fY6j"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Steak",
+                "description": "", 
                 "portrait": ["https://as2.ftcdn.net/jpg/01/92/99/71/500_F_192997190_vGoyYbXleWot8bQGdaZWHoyoHyMbwBnh.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Wine",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/1d/eb/99/1deb99c7bb166f357e2e6db088e92faa.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Mead",
+                "description": "", 
                 "portrait": ["https://thumbs.dreamstime.com/z/barrel-11050360.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Grog",
+                "description": "", 
                 "portrait": ["http://www.steveonsteins.com/wp-content/uploads/2010/05/1882-Woodcut-Glass-Drinking-Horn-Iron-Age-Archaeological-Item-Prehistoric-Tool-337x450.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Honey",
+                "description": "", 
                 "portrait": ["https://banner2.kisspng.com/20180224/aaq/kisspng-honey-drawing-watercolor-painting-illustration-honey-5a91e939b43402.9367058415195118657381.jpg"],
                 "route": "minor-plot"
             }
@@ -151,101 +179,121 @@
         "weaponry": [
             {
                 "characterClass": "Battle Axe",
+                "description": "", 
                 "portrait": ["https://cdn.conceptartempire.com/images/11/3090/03-warhammer-ax.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Ulfberht",
+                "description": "", 
                 "portrait": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6GTWwwBCdmy1lXRpkKL3ew0I6-anRgtWAIQnQoLm8T5uG0ZwfQg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Gladius",
+                "description": "", 
                 "portrait": ["https://mcishop.azureedge.net/mciassets/w_2_0011855_short-ancient-roman-gladius-larp-sword_550.png"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Long Sword",
+                "description": "", 
                 "portrait": ["https://mocah.org/thumbs/4524717-war-sword-of-atlantis-conan-the-barbarian.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Spiked Club",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/87/6f/f9/876ff9112486078a9eb4dcf2b7a348c7.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Spear",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/originals/82/cc/cc/82cccc8ea52b5936e407aff6be29fc83.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Staff",
+                "description": "", 
                 "portrait": ["https://cdnb.artstation.com/p/assets/images/images/011/245/477/large/kara-woods-stx-final.jpg?1532734767"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Dagger",
+                "description": "", 
                 "portrait": ["http://www.chroniclebooks.com/blog/wp-content/uploads/Final_dagger.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Sling",
+                "description": "", 
                 "portrait": ["https://cdn.shopify.com/s/files/1/1004/9126/products/Titan_Sling_Top.jpg?v=1516412403"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Atlatl",
+                "description": "", 
                 "portrait": ["https://collectionapi.metmuseum.org/api/collection/v1/iiif/315225/659089/main-image"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Bow",
+                "description": "", 
                 "portrait": ["https://www.pngkey.com/png/detail/38-385968_clip-art-library-stock-arrows-drawing-fantasy-bow.png"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Composite Bow",
+                "description": "", 
                 "portrait": ["https://i.pinimg.com/236x/c7/54/1b/c7541b65829d7526ba14b781651e199f--fantasy-weapons.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Leather Armor",
+                "description": "", 
                 "portrait": ["https://i.mmo.cm/is/image/mmoimg/bigview/dragonrider-leather-armor-black--mw-302477-1.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Chainmail",
+                "description": "", 
                 "portrait": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmEAJP61dCHtO2_6QY11lQ-kxgWktoKGs3RF3c8x0UnipQDvqJg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Leather Helmet",
+                "description": "",
                 "portrait": ["https://steel-mastery.com/image/catalog/products/FH-01/Leather_helmet_Sallet.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Metal Helmet",
+                "description": "", 
                 "portrait": ["https://images-na.ssl-images-amazon.com/images/I/619sq4roa2L._SY355_.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Leather Bracers",
+                "description": "", 
                 "portrait": ["https://i.etsystatic.com/7792648/r/il/71ca63/1491060687/il_794xN.1491060687_7dhp.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Leather Greaves",
+                "description": "", 
                 "portrait": ["https://cdn3.eviltailors.com/20242-big_default_2x/quintus-upper-leather-greaves.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Metal Bracers",
+                "description": "", 
                 "portrait": ["https://farm1.static.flickr.com/265/32180651910_9293d030a3_b.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Metal Greaves",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             }
@@ -253,56 +301,67 @@
         "portents": [
             {
                 "characterClass": "Curse",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Blessing",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Telekinesis",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Charm",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Light Fire",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Terror",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Illusion of Self",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Awaken Elder God",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Attain Immortality",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Abomination",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Resurrect Dead",
+                "description": "", 
                 "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
                 "route": "minor-plot"
             }
@@ -310,109 +369,130 @@
         "pantheon": [
             {
                 "characterClass": "Love, beauty - M",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.etsystatic.com/8193558/r/il/1109ed/1495784226/il_794xN.1495784226_tg1z.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Hatred, vengeance - F",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73fd5feb-8a2e-46e3-8ab9-c764280fb325/d94v10j-7630529f-92fa-4db5-be45-4b1666e7072a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzczZmQ1ZmViLThhMmUtNDZlMy04YWI5LWM3NjQyODBmYjMyNVwvZDk0djEwai03NjMwNTI5Zi05MmZhLTRkYjUtYmU0NS00YjE2NjZlNzA3MmEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.u_TQnR9gtTPRZIkQ-QU990oPKp4Iyh5YzRCgPolzsJM"],
                 "route": "minor-plot"
             },
             {
-                "characterClass": "War - F",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "characterClass": "War - M",
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/originals/71/57/34/7157349a5bb3c1fc88044cc46e6b5eb4.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Death, underworld - F",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/originals/37/23/cb/3723cb89466e5d9355b9efecc536f587.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Earth, health, harvest - F",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/736x/1d/91/12/1d9112439d17e25882ff8b2fb6ca61cd.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Heaven, storm, hunting, rain - M",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["http://www.stephaniegobby.com/wp-content/uploads/2018/06/Stephanie-Gobby-Odin.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Wine, beer - F",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/236x/84/21/7f/84217f6991323296ef0f6adb7010350c--melanie-delon-fantasy-artwork.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Fortune - M",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/736x/e0/5e/18/e05e18b18e85f4dca4ef5de4c07f0ad4.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Void - M",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/originals/7f/8a/20/7f8a203b3af1255cd1455112b2b66b43.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Deceit - M/F",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/originals/84/44/7c/84447cec5d7ba2cb4d755c379fb2df7b.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Disease - F",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/originals/40/13/f3/4013f35449e74c751750db514f729950.jpg"],
                 "route": "minor-plot"
             }
         ],
         "locations": [
             {
                 "characterClass": "Dungeon",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "Dungeons are subterranean structures that were build with the purpose of locking up prisoners and torture. Because they are underground there are accesses to the exterior through small holes in the ceiling next to the wall, which at the same time it kept fresher air it also let in the rain and small animals like rats and other vermin.", 
+                "portrait": ["http://jdillustration.jimmsdesign.co.uk/images/full-scale-image/blossomtree-dungeon.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Castle",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/236x/c5/86/9f/c5869f05d3498bf056fa3cf3dddf5bff--environment-concept-environment-design.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "House",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/originals/7f/bd/92/7fbd9281cad9f97d35c0e8fc15b91655.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Temple",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["http://41.media.tumblr.com/d6469e24bdc3109374dfd0401275633e/tumblr_nm1tngTBkq1tv3g49o1_500.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Maze",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1ef81753-8934-493b-8e9a-6323a4632eb6/d85ahb3-ae97f1fd-1f55-4d71-baca-3b7b05b4525d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFlZjgxNzUzLTg5MzQtNDkzYi04ZTlhLTYzMjNhNDYzMmViNlwvZDg1YWhiMy1hZTk3ZjFmZC0xZjU1LTRkNzEtYmFjYS0zYjdiMDViNDUyNWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.57XMfpA0lGWnfVyMGkLdO57xVuR24YXXyKkWrsbzbx8"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Cave",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8HtDTQSKIxr3gNAWcuMPJoPHC6LCjh1ii_GQb7Wy8jh1R4p42Q"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Sewers",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/58d19be9-76f8-4690-9948-6f0ba24ac53f/d2oa3as-e9acb81e-87b5-4de6-ba29-5ba70fbea89a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU4ZDE5YmU5LTc2ZjgtNDY5MC05OTQ4LTZmMGJhMjRhYzUzZlwvZDJvYTNhcy1lOWFjYjgxZS04N2I1LTRkZTYtYmEyOS01YmE3MGZiZWE4OWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7n_aBbEDRm89Ou2qe0aciWqI74I_MwsGeZI9uAqgy3k"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Market",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiFYo6UYeJhvXw-k-7Ple2S5isjPY213cPWCc5k_0CXbo0XJK3Eg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Shrine",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "A shrine is basically a really small temple. It serves the same religious purpose but doesn't have the facilities to accomodate more than one person", 
+                "portrait": ["https://images.megapixl.com/1239/12392657.jpg"],
                 "route": "minor-plot"
             },
             {
                 "characterClass": "Graveyard",
-                "portrait": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg/170px-Pair_of_Greaves_%28Lower_Leg_Defenses%29_MET_DP-13125-029.jpg"],
+                "description": "", 
+                "portrait": ["https://i.pinimg.com/originals/54/42/cd/5442cd07eb8f767bca7f269607187596.jpg"],
                 "route": "minor-plot"
             }
         ]
@@ -422,6 +502,7 @@
             "type": "scenery",
             "name": "Vines",
             "scenery": true,
+            "description": "", 
             "portrait": "https://img1.ak.crunchyroll.com/i/spire3/dbf767346cbb8511013c55dace1025491321331274_full.jpg",
             "saveStat": 0,
             "saveDiff": 12,
@@ -431,6 +512,7 @@
             "type": "scenery",
             "name": "Lava",
             "scenery": true,
+            "description": "", 
             "portrait": "https://vignette.wikia.nocookie.net/finalfantasy/images/6/66/FFIIIDS_Lava_Damage_Floor.png/revision/latest/zoom-crop/width/240/height/240?cb=20101221050526",
             "saveStat": 2,
             "saveDiff": 12,
@@ -440,6 +522,7 @@
             "type": "scenery",
             "name": "Swinging Pendulum",
             "scenery": true,
+            "description": "", 
             "portrait": "https://static.tvtropes.org/pmwiki/pub/images/pANDp_5940.jpg",
             "saveStat": 1,
             "saveDiff": 12,
@@ -449,6 +532,7 @@
             "type": "scenery",
             "name": "10ft Fall",
             "scenery": true,
+            "description": "", 
             "portrait": "https://i.pinimg.com/originals/c0/71/71/c07171035a4309af89c1f57308eca977.jpg",
             "saveStat": 1,
             "saveDiff": 12,
@@ -458,6 +542,7 @@
             "type": "scenery",
             "name": "25ft Fall",
             "scenery": true,
+            "description": "", 
             "portrait": "https://i.pinimg.com/originals/c0/71/71/c07171035a4309af89c1f57308eca977.jpg",
             "saveStat": 1,
             "saveDiff": 12,
@@ -467,6 +552,7 @@
             "type": "scenery",
             "name": "50ft Fall",
             "scenery": true,
+            "description": "", 
             "portrait": "https://i.pinimg.com/originals/c0/71/71/c07171035a4309af89c1f57308eca977.jpg",
             "saveStat": 1,
             "saveDiff": 12,
@@ -476,6 +562,7 @@
             "type": "scenery",
             "name": "Spiked Pit",
             "scenery": true,
+            "description": "", 
             "portrait": "https://cdnb.artstation.com/p/assets/images/images/010/376/701/large/joel-lopez-spiked-pit-copy.jpg?1524088001",
             "saveStat": 1,
             "saveDiff": 12,
@@ -485,6 +572,7 @@
             "type": "scenery",
             "name": "Poison Gas Cloud",
             "scenery": true,
+            "description": "", 
             "portrait": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5jjgFnvMBW8y62qp4nnPmP_VhMDdjPSyF6EdE-3oPbvJl-ME",
             "saveStat": 2,
             "saveDiff": 12,
@@ -494,6 +582,7 @@
             "type": "scenery",
             "name": "Arrow Trap",
             "scenery": true,
+            "description": "", 
             "portrait": "https://cdnb.artstation.com/p/assets/images/images/001/950/929/large/dimas-wijil-pamungkas-arrow-barrage-by-happysadcorner-d9gddnq.jpg?1455046628",
             "saveStat": 1,
             "saveDiff": 12,
@@ -503,6 +592,7 @@
             "type": "scenery",
             "name": "Crushing Trap",
             "scenery": true,
+            "description": "", 
             "portrait": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLcPsfZiDsj4o5SdZvk1Rwj9r7zG_Q2Z-_JobOobhDx__BYZh",
             "saveStat": 1,
             "saveDiff": 12,
@@ -512,6 +602,7 @@
             "type": "scenery",
             "name": "Rolling Boulder",
             "scenery": true,
+            "description": "", 
             "portrait": "https://cf.geekdo-images.com/camo/f8829192ef94ed1ea8e1c3e720a738f0514b5182/687474703a2f2f637269746963616c2d686974732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031312f30342f646e645f74726170732e6a7067",
             "saveStat": 3,
             "saveDiff": 12,
@@ -521,6 +612,7 @@
             "type": "scenery",
             "name": "Drowning",
             "scenery": true,
+            "description": "", 
             "portrait": "https://i.pinimg.com/originals/c0/fd/bf/c0fdbf5839187f979f4862687a5824d7.png",
             "saveStat": 3,
             "saveDiff": 10,
@@ -530,6 +622,7 @@
             "type": "scenery",
             "name": "Spider Web",
             "scenery": true,
+            "description": "", 
             "portrait": "https://cache.desktopnexus.com/thumbseg/451/451906-bigthumbnail.jpg",
             "saveStat": 0,
             "saveDiff": 12,
@@ -539,6 +632,7 @@
             "type": "scenery",
             "name": "Fire",
             "scenery": true,
+            "description": "", 
             "portrait": "https://staticdelivery.nexusmods.com/mods/1704/images/thumbnails/78709-0-1473783976.png",
             "saveStat": 1,
             "saveDiff": 12,
@@ -548,6 +642,7 @@
             "type": "scenery",
             "name": "Blades Trap",
             "scenery": true,
+            "description": "", 
             "portrait": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/9/99/Blade_Trap.png",
             "saveStat": 1,
             "saveDiff": 12,
@@ -557,6 +652,7 @@
             "type": "scenery",
             "name": "Acid Trap",
             "scenery": true,
+            "description": "", 
             "portrait": "https://s3.amazonaws.com/files.d20.io/marketplace/44825/56-uB4LDN9_sR2_RKYxkUQ/max.png?1410877712",
             "saveStat": 2,
             "saveDiff": 12,
@@ -566,6 +662,7 @@
             "type": "scenery",
             "name": "Spiked Concoction",
             "scenery": true,
+            "description": "", 
             "portrait": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe0g2irTVPQLovPabAzub-iwWc71zk9AILDYWPGECTVAUhsndQ8Q",
             "saveStat": 1,
             "saveDiff": 12,
@@ -575,6 +672,7 @@
             "type": "scenery",
             "name": "Falling Rocks",
             "scenery": true,
+            "description": "", 
             "portrait": "https://i.ytimg.com/vi/ahvpyv_cPFI/maxresdefault.jpg",
             "saveStat": 1,
             "saveDiff": 12,
@@ -584,6 +682,7 @@
             "type": "scenery",
             "name": "Falling Tree",
             "scenery": true,
+            "description": "", 
             "portrait": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqu6I9C3cSUhbk4SMEc6FWd0R087Jq3oLtwe2iwCfghyqXaqvE",
             "saveStat": 1,
             "saveDiff": 12,
@@ -593,6 +692,7 @@
             "type": "scenery",
             "name": "Frost Wind",
             "scenery": true,
+            "description": "", 
             "portrait": "https://gamepedia.cursecdn.com/scrolls_gamepedia/a/a0/Frost_Wind_%28art%29.png?version=33f81af7410c82df6da3ec90546a30bf",
             "saveStat": 2,
             "saveDiff": 12,
@@ -607,6 +707,7 @@
             "territory" : ["urban"],
             "characterClass": "ShopKeeper",
             "index": null, 
+            "description": "<p>Shopkeepers are spread around the world and are as varied in the way they look as they are on behaviour. Their wares come from...</p><p>The prices tend to go up and down</p>", 
             "portrait": { 
                 "male": "https://i.pinimg.com/originals/01/3f/50/013f50b4f872aa094b76659120594f60.jpg", 
                 "female": "https://cdnb.artstation.com/p/assets/covers/images/009/943/009/20180322002043/smaller_square/julia-yurtsev-shopkeeper-02.jpg?1521696043" 
@@ -674,6 +775,7 @@
             "territory" : ["urban"],
             "characterClass": "Blacksmith",
             "index": null, 
+            "description": "", 
             "portrait": { 
                 "male": "https://f4.bcbits.com/img/a3074138221_10.jpg", 
                 "female": "https://i.pinimg.com/originals/b1/5f/1f/b15f1f42feac85d9ae1e80c083c54a27.jpg" 
@@ -741,6 +843,7 @@
             "territory" : ["urban"],
             "characterClass": "InnKeeper",
             "index": null, 
+            "description": "", 
             "portrait": { 
                 "male": "https://i.pinimg.com/originals/2b/ff/6d/2bff6daf654db10df00ee401c47e4801.jpg", 
                 "female": "https://vignette.wikia.nocookie.net/witcher/images/1/15/Tw3_elsa.png/revision/latest?cb=20180106172046" 
@@ -808,6 +911,7 @@
             "territory" : ["urban"],
             "characterClass": "Inn Servant",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/4a/19/a9/4a19a912454c8ea1d96e7a3649cb5e33.jpg",
                 "male": "https://i.pinimg.com/originals/4d/0e/0b/4d0e0b8ff0d907c95a94295854187023.jpg"
@@ -875,6 +979,7 @@
             "territory" : ["urban", "court"],
             "characterClass": "Prostitute",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/18/10/e0/1810e0bdf0d44ed37e74adfb623db657.png",
                 "male": "https://i.pinimg.com/originals/52/89/29/528929299074f20e2bb3696df6208056.jpg"
@@ -942,6 +1047,7 @@
             "territory" : ["forest", "dungeon", "mountains", "steppes", "desert", "jungle", "urban", "dimensional", "court"],
             "characterClass": "Guard",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://vignette.wikia.nocookie.net/moon-guard/images/d/d3/A7c7259ef6050e967a93aa799d2d685d--fantasy-male-digital-portrait.jpg/revision/latest?cb=20171224092829",
                 "female": "https://i.pinimg.com/originals/44/4b/bf/444bbf7c6d002c1c3082fb218d00f4a1.jpg"
@@ -1009,6 +1115,7 @@
             "territory" : ["forest", "dungeon", "mountains", "desert", "steppes", "jungle", "urban", "dimensional", "court"],
             "characterClass": "Villain",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://i.redd.it/r0q7hntf8ya11.jpg",
                 "female": "https://i.redd.it/r0q7hntf8ya11.jpg"
@@ -1076,6 +1183,7 @@
             "territory" : ["forest", "dungeon", "mountains", "desert", "sea", "arctic", "steppes", "jungle", "urban", "dimensional", "court"],
             "characterClass": "Thief",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/originals/5c/3a/ce/5c3aceff2142026f41dcace98fa51b0a.jpg",
                 "female": "https://i.pinimg.com/originals/5c/3a/ce/5c3aceff2142026f41dcace98fa51b0a.jpg"
@@ -1143,6 +1251,7 @@
             "territory" : ["urban", "court"],
             "characterClass": "Noble",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/originals/83/de/d5/83ded529d8d6c94539c30ea61e46bd19.jpg",
                 "female": "https://i.pinimg.com/originals/83/de/d5/83ded529d8d6c94539c30ea61e46bd19.jpg"
@@ -1210,6 +1319,7 @@
             "territory" : ["forest", "dungeon", "mountains", "desert", "sea", "steppes", "jungle", "urban", "dimensional", "court"],
             "characterClass": "Commoner",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/originals/45/ef/37/45ef37cfe0bcf67a0bd607dc72a47a99.jpg",
                 "female": "https://i.pinimg.com/originals/45/ef/37/45ef37cfe0bcf67a0bd607dc72a47a99.jpg"
@@ -1277,6 +1387,7 @@
             "territory" : ["forest", "dungeon", "mountains", "steppes", "arctic", "jungle", "dimensional"],
             "characterClass": "Tribe Leader",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/originals/6b/61/87/6b618706f6a9a9dfea1d34fd4f616c96.jpg",
                 "female": "https://i.pinimg.com/originals/6b/61/87/6b618706f6a9a9dfea1d34fd4f616c96.jpg"
@@ -1344,6 +1455,7 @@
             "territory" : ["forest", "dungeon", "mountains", "steppes", "arctic", "jungle", "dimensional"],
             "characterClass": "Clansman",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/originals/7a/6e/5b/7a6e5b27f0835ca5aed6cf9b48dfa6e4.jpg",
                 "female": "https://i.pinimg.com/originals/7a/6e/5b/7a6e5b27f0835ca5aed6cf9b48dfa6e4.jpg"
@@ -1411,6 +1523,7 @@
             "territory" : ["urban", "court"],
             "characterClass": "Monarch",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/originals/47/e4/b1/47e4b16630a9c97946cbfdc8180dcc7c.jpg",
                 "female": "https://i.pinimg.com/originals/47/e4/b1/47e4b16630a9c97946cbfdc8180dcc7c.jpg"
@@ -1478,6 +1591,7 @@
             "territory" : ["forest", "dungeon", "mountains", "steppes", "sea", "arctic", "desert", "jungle", "urban", "dimensional", "court"],
             "characterClass": "Priest",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://vignette.wikia.nocookie.net/damo/images/a/a6/F46368bbf952cf70a28ed091161f4f6f--fantasy-rpg-fantasy-priest.jpg/revision/latest?cb=20170921195417",
                 "female": "https://vignette.wikia.nocookie.net/damo/images/a/a6/F46368bbf952cf70a28ed091161f4f6f--fantasy-rpg-fantasy-priest.jpg/revision/latest?cb=20170921195417"
@@ -1542,6 +1656,7 @@
             "territory" : ["forest", "dungeon", "mountains", "steppes", "sea", "desert", "arctic", "jungle", "urban", "dimensional", "court"],
             "characterClass": "Sorcerer",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "https://cdna.artstation.com/p/assets/images/images/010/803/308/large/bernardo-hasselmann-eldrinportrait.jpg?1526320680",
                 "female": "https://cdna.artstation.com/p/assets/images/images/010/803/308/large/bernardo-hasselmann-eldrinportrait.jpg?1526320680"
@@ -1609,6 +1724,7 @@
             "territory" : ["urban"],
             "characterClass": "Beggar",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "male": "http://3.bp.blogspot.com/-wTnXKzaaCjA/Ta5K_JJinCI/AAAAAAAAAME/IWoh_zDSLv0/s1600/oldman.jpg",
                 "female": "http://3.bp.blogspot.com/-wTnXKzaaCjA/Ta5K_JJinCI/AAAAAAAAAME/IWoh_zDSLv0/s1600/oldman.jpg"
@@ -1676,6 +1792,7 @@
             "territory" : ["forest", "dungeon", "mountains", "sea", "arctic", "steppes", "jungle", "dimensional"],
             "characterClass": "Witch",
             "index": null, 
+            "description": "", 
             "portrait": {
                 "female": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ye3uM1nCic-loIAVHtYgnK_Xzt5uDx_zH_Wy0owIYJoRElQl",
                 "male": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ye3uM1nCic-loIAVHtYgnK_Xzt5uDx_zH_Wy0owIYJoRElQl"
@@ -1740,6 +1857,7 @@
         {
             "name": "", 
             "type": "creature",
+            "description": "", 
             "portrait": {
                 "female": "https://josephvargo.com/images/09_Sword-and-Sorcery/Caveman.jpg",
                 "male": "https://josephvargo.com/images/09_Sword-and-Sorcery/Caveman.jpg"
@@ -1805,6 +1923,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://img00.deviantart.net/5fb1/i/2010/014/4/b/lizard_by_akiman.jpg",
                 "male": "https://img00.deviantart.net/5fb1/i/2010/014/4/b/lizard_by_akiman.jpg"
@@ -1872,6 +1991,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/64/30/a7/6430a71efea4d8f3939035239a6105a1.jpg",
                 "male": "https://i.pinimg.com/originals/64/30/a7/6430a71efea4d8f3939035239a6105a1.jpg"
@@ -1939,6 +2059,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/f3/2a/6a/f32a6a6d450f38908b341cac2f3a14bf.jpg",
                 "male": "https://i.pinimg.com/originals/f3/2a/6a/f32a6a6d450f38908b341cac2f3a14bf.jpg"
@@ -2006,6 +2127,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "http://www.imarvintpa.com/Mapping/Monster%20Portraits/Yuan-Ti%203.png",
                 "male": "http://www.imarvintpa.com/Mapping/Monster%20Portraits/Yuan-Ti%203.png"
@@ -2073,6 +2195,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "http://fc05.deviantart.net/fs42/i/2009/156/6/f/KumpeeSigha__Croc_Lion__Male_by_Gandharvasstudio.jpg",
                 "male": "http://fc05.deviantart.net/fs42/i/2009/156/6/f/KumpeeSigha__Croc_Lion__Male_by_Gandharvasstudio.jpg"
@@ -2140,6 +2263,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "http://www.howarddavidjohnson.com/Fafnir_the_Frost_Giant_.jpg",
                 "male": "http://www.howarddavidjohnson.com/Fafnir_the_Frost_Giant_.jpg"
@@ -2208,6 +2332,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://dialecticanalyticalman.files.wordpress.com/2016/11/cyclops-2.jpg",
                 "male": "https://dialecticanalyticalman.files.wordpress.com/2016/11/cyclops-2.jpg"
@@ -2275,6 +2400,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/00/a7/43/00a7432349887250c592fc8b35068b5a.jpg",
                 "male": "https://i.pinimg.com/originals/00/a7/43/00a7432349887250c592fc8b35068b5a.jpg"
@@ -2342,6 +2468,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.ebayimg.com/images/g/y8oAAOSwvgdW2y-T/s-l300.jpg",
                 "male": "https://i.ebayimg.com/images/g/y8oAAOSwvgdW2y-T/s-l300.jpg"
@@ -2409,6 +2536,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/26/c4/55/26c4559b1fdfcd753ac739aec6195045.jpg",
                 "male": "https://i.pinimg.com/originals/26/c4/55/26c4559b1fdfcd753ac739aec6195045.jpg"
@@ -2476,6 +2604,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "http://www.epilogue.net/sites/default/files/imagecache/gallery_lg/images/08/33/41075_1218513600.jpg",
                 "male": "http://www.epilogue.net/sites/default/files/imagecache/gallery_lg/images/08/33/41075_1218513600.jpg"
@@ -2543,6 +2672,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://img00.deviantart.net/c5ad/i/2014/321/6/5/sabretooth_pounce_by_concept_art_house-d1if245.jpg",
                 "male": "https://img00.deviantart.net/c5ad/i/2014/321/6/5/sabretooth_pounce_by_concept_art_house-d1if245.jpg"
@@ -2610,6 +2740,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://cdn130.picsart.com/239044225047202.jpg?r1024x1024",
                 "male": "https://cdn130.picsart.com/239044225047202.jpg?r1024x1024"
@@ -2677,6 +2808,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://pre00.deviantart.net/129f/th/pre/i/2012/250/8/1/war_elephant_by_sugarsart-d5dw7v4.jpg",
                 "male": "https://pre00.deviantart.net/129f/th/pre/i/2012/250/8/1/war_elephant_by_sugarsart-d5dw7v4.jpg"
@@ -2744,6 +2876,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/2c/33/72/2c33724d16c65c746104c08f53e9cc51.jpg",
                 "male": "https://i.pinimg.com/originals/2c/33/72/2c33724d16c65c746104c08f53e9cc51.jpg"
@@ -2811,6 +2944,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://vignette.wikia.nocookie.net/bloodrealm/images/2/2f/CarnivorousPlant.png/revision/latest?cb=20140320205231",
                 "male": "https://vignette.wikia.nocookie.net/bloodrealm/images/2/2f/CarnivorousPlant.png/revision/latest?cb=20140320205231"
@@ -2878,6 +3012,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "http://www.bergsma.com/images/T/522.jpg",
                 "male": "http://www.bergsma.com/images/T/522.jpg"
@@ -2945,6 +3080,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/9b/df/3c/9bdf3cdc5cb16cce57a8ccae1b4cd385.jpg",
                 "male": "https://i.pinimg.com/originals/9b/df/3c/9bdf3cdc5cb16cce57a8ccae1b4cd385.jpg"
@@ -3012,6 +3148,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/ce/86/ac/ce86ac15466c16875efbbf7df87bbe8b.jpg",
                 "male": "https://i.pinimg.com/originals/ce/86/ac/ce86ac15466c16875efbbf7df87bbe8b.jpg"
@@ -3079,6 +3216,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://vignette.wikia.nocookie.net/dragonfantasysaga/images/f/f4/Inimigo_-_Imperial_Necromancer.jpg/revision/latest?cb=20130802203741",
                 "male": "https://vignette.wikia.nocookie.net/dragonfantasysaga/images/f/f4/Inimigo_-_Imperial_Necromancer.jpg/revision/latest?cb=20130802203741"
@@ -3146,6 +3284,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/5429785ee4b047c33e155a12/1412003936853/medieval-skeleton-warrior-art-by-markus-neidel",
                 "male": "https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/5429785ee4b047c33e155a12/1412003936853/medieval-skeleton-warrior-art-by-markus-neidel"
@@ -3213,6 +3352,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/e4/84/e9/e484e9b8a5e9c988f829639a6449ce76.jpg",
                 "male": "https://i.pinimg.com/originals/e4/84/e9/e484e9b8a5e9c988f829639a6449ce76.jpg"
@@ -3280,6 +3420,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/2b/a2/72/2ba272fbe6a7145c3410113bff0e4e3b.jpg",
                 "male": "https://i.pinimg.com/originals/2b/a2/72/2ba272fbe6a7145c3410113bff0e4e3b.jpg"
@@ -3347,6 +3488,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "http://s1.1zoom.me/big0/725/Ghost_Night_Street_510992.jpg",
                 "male": "http://s1.1zoom.me/big0/725/Ghost_Night_Street_510992.jpg"
@@ -3414,6 +3556,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://pm1.narvii.com/6622/fc5efc93792b6c2f7b3abd6e9c21814c3f2c7684_hq.jpg",
                 "male": "https://pm1.narvii.com/6622/fc5efc93792b6c2f7b3abd6e9c21814c3f2c7684_hq.jpg"
@@ -3481,6 +3624,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/8d/24/01/8d240171d77ef310f903b85f154e470a.jpg",
                 "male": "https://i.pinimg.com/originals/8d/24/01/8d240171d77ef310f903b85f154e470a.jpg"
@@ -3548,6 +3692,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://www.artranked.com/images/8b/8baf5e7da3162f26a6b977478d5c83a2.jpg",
                 "male": "https://www.artranked.com/images/8b/8baf5e7da3162f26a6b977478d5c83a2.jpg"
@@ -3615,6 +3760,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/a2/eb/af/a2ebafbd8202b2fb4578a19612a31335.jpg",
                 "male": "https://i.pinimg.com/originals/a2/eb/af/a2ebafbd8202b2fb4578a19612a31335.jpg"
@@ -3682,6 +3828,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://www.frontlinegaming.org/wp-content/uploads/2016/01/chaos_cultist_by_slipgatecentral.jpg",
                 "male": "https://www.frontlinegaming.org/wp-content/uploads/2016/01/chaos_cultist_by_slipgatecentral.jpg"
@@ -3749,6 +3896,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://s-media-cache-ak0.pinimg.com/736x/a2/85/ab/a285ab86539f573f657384209fc40420--bear-illustration-fantasy-illustration.jpg",
                 "male": "https://s-media-cache-ak0.pinimg.com/736x/a2/85/ab/a285ab86539f573f657384209fc40420--bear-illustration-fantasy-illustration.jpg"
@@ -3816,6 +3964,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://cdna.artstation.com/p/assets/images/images/010/147/732/large/alejandro-olmedo-terodactyl-hd-logo.jpg?1522830112",
                 "male": "https://cdna.artstation.com/p/assets/images/images/010/147/732/large/alejandro-olmedo-terodactyl-hd-logo.jpg?1522830112"
@@ -3883,6 +4032,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/08/c3/6c/08c36c52617284113f30fd247f756b2b.jpg",
                 "male": "https://i.pinimg.com/originals/08/c3/6c/08c36c52617284113f30fd247f756b2b.jpg"
@@ -3950,6 +4100,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://horror.ambient-mixer.com/images_template/9/d/6/9d69187695b6bf111a13245dd0b81926_full.jpg",
                 "male": "https://horror.ambient-mixer.com/images_template/9/d/6/9d69187695b6bf111a13245dd0b81926_full.jpg"
@@ -4017,6 +4168,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/474x/87/4f/9d/874f9d091bcc956277fdf0b1eb8b4c91--fantasy-monster-cthulhu-mythos.jpg",
                 "female": "https://i.pinimg.com/originals/e5/3f/6f/e53f6fa552f4a026c95c47605e37c2ba.jpg"
@@ -4090,6 +4242,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/93/f6/f7/93f6f75ebb63306d9577baa187ae15cb.jpg",
                 "male": "https://i.pinimg.com/originals/93/f6/f7/93f6f75ebb63306d9577baa187ae15cb.jpg"
@@ -4157,6 +4310,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://vignette.wikia.nocookie.net/the-legendary-moonlight-sculptor/images/d/df/Shadow.jpg/revision/latest?cb=20150921110101",
                 "male": "https://vignette.wikia.nocookie.net/the-legendary-moonlight-sculptor/images/d/df/Shadow.jpg/revision/latest?cb=20150921110101"
@@ -4224,6 +4378,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://c.wallhere.com/photos/3f/1d/artwork_fantasy_art_dead_demon_redhead-68416.jpg!d",
                 "male": "https://ksr-ugc.imgix.net/assets/011/526/715/6154c9ffe5d9ad083d057e4cae1f9a94_original.jpg?ixlib=rb-2.0.0&crop=faces&w=1552&h=873&fit=crop&v=1463684011&auto=format&frame=1&q=92&s=06b9de34eb39c0eb1b833d16c700d421"
@@ -4291,6 +4446,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/a6/7d/3d/a67d3d8f945844818fd751ea735095fe.jpg",
                 "male": "https://i.pinimg.com/originals/a6/7d/3d/a67d3d8f945844818fd751ea735095fe.jpg"
@@ -4358,6 +4514,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/ee/b1/f4/eeb1f41f241a694b9e2b7a7098891cc9.jpg",
                 "male": "https://i.pinimg.com/originals/ee/b1/f4/eeb1f41f241a694b9e2b7a7098891cc9.jpg"
@@ -4419,6 +4576,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/a1/e3/2e/a1e32e9ef22c7bd466c56cc067d80656.jpg",
                 "male": "https://cdna.artstation.com/p/assets/images/images/006/202/534/large/olga-kolesnikova-incubus5.jpg?1496772183"
@@ -4486,6 +4644,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "male": "https://i.pinimg.com/originals/98/5a/00/985a005ff1245e7ad3a330d1805242bf.jpg",
                 "female": "https://i.pinimg.com/736x/d6/07/ae/d607ae60170b210aa2cbe634616a0494.jpg"
@@ -4553,6 +4712,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12ac6727-eea5-4504-b8e4-d2e822342075/d4ewqxk-c77a8df8-33ab-4c51-af7c-b710a7f1d1a3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyYWM2NzI3LWVlYTUtNDUwNC1iOGU0LWQyZTgyMjM0MjA3NVwvZDRld3F4ay1jNzdhOGRmOC0zM2FiLTRjNTEtYWY3Yy1iNzEwYTdmMWQxYTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dsxUkuM-7sK01CE8xuD0vqbH3A7y71Z7beHdeOH9cgw",
                 "male": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12ac6727-eea5-4504-b8e4-d2e822342075/d4ewqxk-c77a8df8-33ab-4c51-af7c-b710a7f1d1a3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyYWM2NzI3LWVlYTUtNDUwNC1iOGU0LWQyZTgyMjM0MjA3NVwvZDRld3F4ay1jNzdhOGRmOC0zM2FiLTRjNTEtYWY3Yy1iNzEwYTdmMWQxYTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dsxUkuM-7sK01CE8xuD0vqbH3A7y71Z7beHdeOH9cgw"
@@ -4620,6 +4780,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "female": "https://i.pinimg.com/originals/1f/04/e4/1f04e4afdf7fab693e801c2bb32213e2.jpg",
                 "male": "https://i.pinimg.com/originals/1f/04/e4/1f04e4afdf7fab693e801c2bb32213e2.jpg"
@@ -4687,6 +4848,7 @@
             ]
         },
         {
+            "description": "", 
             "portrait": {
                 "male": "https://pbs.twimg.com/media/DpEbF_UU0AA8kfm.jpg",
                 "female": "https://i.pinimg.com/originals/18/f6/a6/18f6a63d597ddfde48829e76c8d926ca.png"

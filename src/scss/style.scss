@@ -129,7 +129,7 @@ body {
         width: 80px;
         height: 80px;
         background-color: #fff;
-        border: 3px solid #000;
+        border: 3px solid #4C3823;
         border-radius: 50%;
     }
     .encounterStats {
@@ -217,7 +217,7 @@ body {
     display: none;
 }
 .rollModal {
-    border: 3px solid #000;
+    border: 3px solid #4C3823;
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 10px;
@@ -311,7 +311,7 @@ body {
     margin: 10px;
     padding: 20px;
     max-width: 500px;
-    border: 1px solid #000;
+    border: 1px solid #4C3823;
     opacity: 0;
     transition: .3s;
     position: relative;
@@ -349,4 +349,32 @@ body {
     color: blue;
     font-size: .8rem;
     cursor: pointer;
+}
+.loadedDisplayPanel {
+    width: 100%;
+    max-width: 950px;
+    border: 1px solid #4C3823;
+    padding: 15px;
+    margin: 0 auto;
+    h2 {
+        text-align: center;
+    }
+    img {
+        max-width: 30%;
+    }
+}
+.loadedDisplayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    box-sizing: border-box;
+    @media only screen and (max-width: 786px) {
+        display: block;
+    }
+    .description {
+        padding: 10px;
+        border: 1px solid #4C3823;
+        margin: 0 10px;
+        width: 70%;
+    }
 }
