@@ -61,6 +61,7 @@ export default {
         addTarget(target) {
             this.charIndex++;
             let newCharacter = {
+                characterType: target.characterType,
                 type: target.type,
                 name: target.name,
                 kind: target.kind,

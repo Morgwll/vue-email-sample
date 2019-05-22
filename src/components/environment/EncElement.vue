@@ -1,3 +1,4 @@
+    
 <template>
     <div>
         <ul class="encounterStats" v-if="character.type === 'creature'">
@@ -61,7 +62,7 @@
                 <option v-for="(action, index) in character.actions" :key="index">{{ action.name }}</option>
             </select>
         </div>
-        <div id="actionChoice" class="actionChoice" v-if="character.characterClass === 'pc'">
+        <div id="actionChoice" class="actionChoice" v-if="character.characterType === 'pc'">
             Class Actions:
             <select v-model="selectClassAction" id="actionChoiceSelect" @change="classAction(targets.indexOf(character))">
                 <option default disabled selected>-- Select Class Action --</option>

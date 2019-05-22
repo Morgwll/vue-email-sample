@@ -56,6 +56,7 @@ export const store = new Vuex.Store({
         characterList: [
             {
                 "portrait": 'https://i.kinja-img.com/gawker-media/image/upload/s--NdbChKcZ--/c_scale,f_auto,fl_progressive,q_80,w_800/18j3zwhxy85iyjpg.jpg',
+                "characterType": "pc",
                 "characterClass": "Guardian",
                 "type": "creature", 
                 "name": "Rykha",
@@ -87,6 +88,15 @@ export const store = new Vuex.Store({
                     { "name" : "Intimidate"},
                     { "name" : "Pickpocket"},
                     { "name" : "Manipulate Mechanism"}
+                ],
+                "classActions": [
+                    { "name" : "Pickpocket"},
+                    { "name" : "Ranged"},
+                    { "name" : "Brawl"},
+                    { "name" : "Melee"},
+                    { "name" : "Hunt" },
+                    { "name" : "Swim" },
+                    { "name" : "Disarm Trap" },
                 ],
                 "pPerception": 12,
                 "weapons":
@@ -120,6 +130,7 @@ export const store = new Vuex.Store({
             },
             {
                 "portrait": 'https://cdnb.artstation.com/p/assets/images/images/005/395/785/large/anthony-l-m-barbarian-massacre-anthony-lm-ss.jpg?1490724835',
+                "characterType": "pc",
                 "characterClass": "Hunter",
                 "type": "creature",
                 "name": "Harold",
@@ -151,6 +162,15 @@ export const store = new Vuex.Store({
                     { "name" : "Intimidate"},
                     { "name" : "Pickpocket"},
                     { "name" : "Manipulate Mechanism"}
+                ],
+                "classActions": [
+                    { "name" : "Pickpocket"},
+                    { "name" : "Ranged"},
+                    { "name" : "Brawl"},
+                    { "name" : "Melee"},
+                    { "name" : "Hunt" },
+                    { "name" : "Swim" },
+                    { "name" : "Disarm Trap" },
                 ],
                 "pPerception": 12,
                 "weapons":
@@ -184,6 +204,7 @@ export const store = new Vuex.Store({
             },
             {
                 "portrait": 'https://i.etsystatic.com/7197050/d/il/c900fa/1615953936/il_340x270.1615953936_pgtl.jpg?version=0',
+                "characterType": "pc",
                 "characterClass": "Shaman",
                 "type": "creature",
                 "name": "Yorubo",
@@ -223,6 +244,15 @@ export const store = new Vuex.Store({
                     { "name" : "Telekinesis"},
                     { "name" : "Terror"},
                     { "name" : "Illusion of Self"}
+                ],
+                "classActions": [
+                    { "name" : "Pickpocket"},
+                    { "name" : "Ranged"},
+                    { "name" : "Brawl"},
+                    { "name" : "Melee"},
+                    { "name" : "Hunt" },
+                    { "name" : "Swim" },
+                    { "name" : "Disarm Trap" },
                 ],
                 "pPerception": 12,
                 "weapons":
