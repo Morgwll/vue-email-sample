@@ -12,6 +12,7 @@
                 <div class="leftMenuTab menuTab pantheonMenuTab" @click="pantheonMenu()"><i class="fas fa-ankh"></i></div>
                 <div class="leftMenuTab menuTab locationsMenuTab" @click="locationsMenu()"><i class="fas fa-globe-europe"></i></div>
                 <ul v-if="menus === this.$store.state.worlds[chosenWorld].environment.plots">
+                    <li draggable @dragend="addMainElement()" @click="addMainElement()"><img src="https://www.gannett-cdn.com/media/2017/09/21/USATODAY/USATODAY/636415913442262218-GettyImages-481013807.jpg?width=1080&quality=50">Main Plot</li>
                     <li draggable @dragend="addElement(element)" @click="addElement(element)" v-for="(element, index) in menus" :key="index"><img :src="portraitChooser(element)">{{ element.characterClass }}</li>
                 </ul>
                 <ul v-else>
@@ -28,7 +29,8 @@
         </div>
         <div v-else-if="shown === ''" class="loadedDisplayPanel">
             <ul>
-                <li v-for="(storyElement, index) of $store.state.storyElements" :key="index">
+                <li v-for="(storyElement, index) of $store.state.storyElements" :key="index" class="storyBlock">
+                    <div class="storyRemoval" @click="removeStory(storyElement)"><i class="fa fa-times"></i></div>
                     <div v-html="storyElement" class="story"></div>
                 </li>
             </ul>
@@ -55,6 +57,7 @@
             let menus = this.$store.state.worlds[chosenWorld].environment.plots;
             let shown = "";
             let story = '';
+            let territory = '';
             const content = {
                 "title": this.$store.state.selectedGame.name,
                 "lastDescription": this.$store.state.selectedGame.synopsis
@@ -133,7 +136,11 @@
                 this.hideLeftMenu();
             },
             addElement(element) {
-                this.plotGenerator(element);
+                this.minorPlotGenerator(element);
+                this.$store.state.storyElements.push(this.story);
+            },
+            addMainElement() {
+                this.mainPlotGenerator();
                 this.$store.state.storyElements.push(this.story);
             },
             showElement(element) {
@@ -218,10 +225,7 @@
                 return 'Winter';
                 }
             },
-            plotGenerator(env) {
-                console.log("the display ", env);
-                const title = env.characterClass;
-                const portrait = env.portrait;
+            mainPlotGenerator() {
                 const extNum = this.booleanGen();
                 const monthNum = Math.floor(Math.random() * 12);
                 const dayNum = Math.floor(Math.random() * 7);
@@ -234,7 +238,23 @@
                 const extPlot = this.externalPlot(extNum);
                 const plotTwist = this.plotTwist();
                 const religiousPlot = this.religiousPlot();
-                this.story = "<img src='" + portrait + "' /><div class='description'><h3>" + title + "</h3>" + "<p>It is the " + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". </p><p>" + npc + ". " + time + extPlot + religiousPlot + "<p>" + plotTwist + "</p></div>";
+                this.story = "<img src='https://www.gannett-cdn.com/media/2017/09/21/USATODAY/USATODAY/636415913442262218-GettyImages-481013807.jpg?width=1080&quality=50' /><div class='description'><h3>Main Plot</h3><p>It is the " + season + " of " + yearNum + ". The date, " + day + " the " + (dayNum + 1) + " of " + month + ". </p><p>" + npc + ". " + time + extPlot + religiousPlot + "<p>" + plotTwist + "</p></div>";
+            },
+            minorPlotGenerator(env) {
+                const title = env.characterClass;
+                const portrait = env.portrait;
+                const extNum = this.booleanGen();
+                const territory = env.territory;
+                const npc = this.chooseNPC();
+                const time = this.timeFrame();
+                const extPlot = this.externalPlot(extNum);
+                const plotTwist = this.plotTwist();
+                const religiousPlot = this.religiousPlot();
+                this.story = "<img src='" + portrait + "' /><div class='description'><h3>" + title + "</h3><p>The characters arrive to the " + territory + " of " + this.generateName() + "</p><p>" + npc + ". " + time + extPlot + religiousPlot + "<p>" + plotTwist + "</p></div>";
+            },
+            removeStory(story) {
+                let indexInd = this.$store.state.storyElements.indexOf(story);
+                this.$store.state.storyElements.splice(indexInd, 1);
             },
         }
     }

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import raven from './worlds/ravenstorm.json';
-import metal from './worlds/heavy-metal.json';
+import alien from './worlds/alien-fantasy.json';
 import games from './games/games.json';
 
 Vue.use(Vuex);
@@ -10,7 +10,7 @@ let selectedGame = raven;
 
 export const store = new Vuex.Store({
     state: {
-        worlds: [raven, metal],
+        worlds: [raven, alien],
         char: {
             statNumbers: 54,
             index: null,
@@ -24,11 +24,11 @@ export const store = new Vuex.Store({
                     value: 3
                 },
                 con: {
-                    name: "CON",
+                    name: "DEX",
                     value: 3
                 },
                 dex: {
-                    name: "DEX",
+                    name: "CON",
                     value: 3
                 },
                 sta: {
@@ -52,7 +52,6 @@ export const store = new Vuex.Store({
         selectedAction: '-- Select Action --',
         selectedTarget: {},
         resultMessage: '',
-        storyElements: [],
         characterList: [
             {
                 "portrait": 'https://i.kinja-img.com/gawker-media/image/upload/s--NdbChKcZ--/c_scale,f_auto,fl_progressive,q_80,w_800/18j3zwhxy85iyjpg.jpg',
@@ -71,10 +70,10 @@ export const store = new Vuex.Store({
                     "sta": 10, 
                     "app": 7, 
                     "pow": 10 
-                },
+                }, 
                 "martialProwess": 4, 
                 "damageBonus": 6, 
-                "defenseValue": 14,
+                "defenseValue": 14, 
                 "hitpoints": 75,
                 "tempHitpoints": 75, 
                 "sanity": 50, 
@@ -90,33 +89,19 @@ export const store = new Vuex.Store({
                 ],
                 "pPerception": 12,
                 "weapons":
-                [
-                    { 
-                        "name": "Long Sword", 
-                        "mp": 0, 
-                        "range": 5, 
-                        "damage": [ 4, 7, 12 ]
-                    }, { 
-                        "name": "Composite Bow", 
-                        "mp": 0, 
-                        "range": 35, 
-                        "damage": [ 4, 8, 12 ]
-                    }
-                ],
-                "armor": [
-                    { 
-                        "name": "Leather Bracers",
-                        "defense": 1
-                    },
-                    { 
-                        "name": "Leather Armor",
-                        "defense": 2
-                    },
-                    { 
-                        "name": "Leather Helmet",
-                        "defense": 2
-                    }
-                ]
+                    [
+                        { 
+                            "name": "Long Sword", 
+                            "mp": 0, 
+                            "range": 5, 
+                            "damage": [ 4, 7, 12 ]
+                        }, { 
+                            "name": "Composite Bow", 
+                            "mp": 0, 
+                            "range": 35, 
+                            "damage": [ 4, 8, 12 ]
+                        }
+                    ] 
             },
             {
                 "portrait": 'https://cdnb.artstation.com/p/assets/images/images/005/395/785/large/anthony-l-m-barbarian-massacre-anthony-lm-ss.jpg?1490724835',
@@ -136,7 +121,7 @@ export const store = new Vuex.Store({
                     "app": 4, 
                     "pow": 12 
                 },
-                "martialProwess": 5,
+                "martialProwess": 5, 
                 "damageBonus": 6, 
                 "defenseValue": 15, 
                 "hitpoints": 70,
@@ -154,33 +139,19 @@ export const store = new Vuex.Store({
                 ],
                 "pPerception": 12,
                 "weapons":
-                [
-                    { 
-                        "name": "Club", 
-                        "mp": 0, 
-                        "range": 5, 
-                        "damage": [ 4, 8, 10 ] 
-                    }, { 
-                        "name": "Composite Bow", 
-                        "mp": 0, 
-                        "range": 45, 
-                        "damage": [ 4, 8, 12 ]
-                    }
-                ],
-                "armor": [
-                    { 
-                        "name": "Leather Bracers",
-                        "defense": 1
-                    },
-                    { 
-                        "name": "Leather Armor",
-                        "defense": 2
-                    },
-                    { 
-                        "name": "Leather Helmet",
-                        "defense": 2
-                    }
-                ]
+                    [
+                        { 
+                            "name": "Club", 
+                            "mp": 0, 
+                            "range": 5, 
+                            "damage": [ 4, 8, 10 ] 
+                        }, { 
+                            "name": "Composite Bow", 
+                            "mp": 0, 
+                            "range": 45, 
+                            "damage": [ 4, 8, 12 ]
+                        }
+                    ] 
             },
             {
                 "portrait": 'https://i.etsystatic.com/7197050/d/il/c900fa/1615953936/il_340x270.1615953936_pgtl.jpg?version=0',
@@ -200,9 +171,9 @@ export const store = new Vuex.Store({
                     "app": 8, 
                     "pow": 16 
                 }, 
-                "martialProwess": 4, 
-                "damageBonus": 4, 
-                "defenseValue": 11, 
+                "martialProwess": 7, 
+                "damageBonus": 5, 
+                "defenseValue": 15, 
                 "hitpoints": 70,
                 "tempHitpoints": 70, 
                 "sanity": 60, 
@@ -226,29 +197,19 @@ export const store = new Vuex.Store({
                 ],
                 "pPerception": 12,
                 "weapons":
-                [
-                    { 
-                        "name": "Staff", 
-                        "mp": 0, 
-                        "range": 10, 
-                        "damage": [ 3, 6, 8 ]
-                    }, { 
-                        "name": "Composite Bow", 
-                        "mp": 0, 
-                        "range": 35, 
-                        "damage": [ 4, 8, 12 ]
-                    }
-                ],
-                "armor": [
-                    { 
-                        "name": "Leather Bracers",
-                        "defense": 1
-                    },
-                    { 
-                        "name": "Leather Greaves",
-                        "defense": 1
-                    }
-                ]
+                    [
+                        { 
+                            "name": "Staff", 
+                            "mp": 0, 
+                            "range": 10, 
+                            "damage": [ 3, 6, 8 ]
+                        }, { 
+                            "name": "Composite Bow", 
+                            "mp": 0, 
+                            "range": 35, 
+                            "damage": [ 4, 8, 12 ]
+                        }
+                    ] 
             }
         ],
         targets: [],
