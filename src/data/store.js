@@ -78,7 +78,8 @@ export const store = new Vuex.Store({
                 "defenseValue": 14,
                 "hitpoints": 75,
                 "tempHitpoints": 75, 
-                "sanity": 50, 
+                "sanity": 50,
+                "tempSanity": 50,
                 "charisma": 8,
                 "actions": [
                     { "name" : "Attack"},
@@ -151,8 +152,9 @@ export const store = new Vuex.Store({
                 "damageBonus": 6, 
                 "defenseValue": 15, 
                 "hitpoints": 70,
-                "tempHitpoints": 70, 
-                "sanity": 60, 
+                "tempHitpoints": 47, 
+                "sanity": 60,
+                "tempSanity": 48, 
                 "charisma": 8,
                 "actions": [
                     { "name" : "Attack"},
@@ -226,7 +228,8 @@ export const store = new Vuex.Store({
                 "defenseValue": 11, 
                 "hitpoints": 70,
                 "tempHitpoints": 70, 
-                "sanity": 60, 
+                "sanity": 60,
+                "tempSanity": 60,
                 "charisma": 12,
                 "actions": [
                     { "name" : "Attack"},

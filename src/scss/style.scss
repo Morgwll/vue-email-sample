@@ -165,7 +165,7 @@ body {
 }
 .hitpointsBar {
     height: 30px;
-    background-color: red;
+    background-color: #ad1818;
     line-height: 30px;
     text-align: center;
     border: 1px solid #000;
@@ -174,7 +174,12 @@ body {
 
 }
 .tempHitpoints {
-    background-color: green;
+    background-color: #36ad18;
+}
+.tempSanity {
+    background-color: #4785e8;
+}
+.tempHitpoints, .tempSanity {
     border-radius: 4px;
     height: 30px;
     position: absolute;

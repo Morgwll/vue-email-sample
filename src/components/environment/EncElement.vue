@@ -11,7 +11,7 @@
                 </div> 
             </li>
             <li>Class: {{ character.characterClass }}</li>
-            <li>Name: {{ character.name }}</li>
+            <li>Name: {{ character.name }}<span v-if="character.alias !== ''"> "{{ character.alias }}"</span></li>
             <li>Gender: {{ character.gender }}</li>
             <li class="statBox">
                 <ul class="statNames">
@@ -26,7 +26,8 @@
             <li>DEF: {{ character.defenseValue }}</li>
             <li>HP: <div class="hitpointsBar" :style="{ width: (character.hitpoints * 2) + 'px'}"><div class="tempHitpoints" :style="{ width: (character.tempHitpoints * 2) + 'px'}"></div><div class="tempHtpText">{{ character.tempHitpoints }}</div></div><div @click="character.tempHitpoints--">Dmg</div>
             <div @click="character.tempHitpoints++">Heal</div></li>
-            <li>Sanity: {{ character.sanity }}</li>
+            <li>Sanity: <div class="hitpointsBar" :style="{ width: (character.sanity * 2) + 'px'}"><div class="tempSanity" :style="{ width: (character.tempSanity * 2) + 'px'}"></div><div class="tempHtpText">{{ character.tempSanity }}</div></div><div @click="character.tempSainity--">Dmg</div>
+            <div @click="character.tempSanity++">Heal</div></li>
             <li>Charisma: {{ character.charisma }}</li>
         </ul>
         <ul class="encounterStats" v-else>
@@ -121,7 +122,7 @@ import mixins from '../../mixins.js';
                     } else if (this.selectAction === "Heal") {
                         this.selectedTarget[0].tempHitpoints = this.selectedTarget[0].tempHitpoints + 20;
                     } else if (this.selectAction === "Terror") { 
-                        this.selectedTarget[0].sanity = this.selectedTarget[0].sanity - 20;
+                        this.selectedTarget[0].tempSanity = this.selectedTarget[0].tempSanity - 20;
                     }
                 } else if ((active + roll) >= passive) {
                     attackSuccess = true;
@@ -157,7 +158,7 @@ import mixins from '../../mixins.js';
                         }
                     }
                     if (this.selectAction === "Terror") { 
-                        this.selectedTarget[0].sanity = this.selectedTarget[0].sanity - 20;
+                        this.selectedTarget[0].tempSanity = this.selectedTarget[0].tempSanity - 20;
                     }
                     this.$store.state.resultMessage = "it's a success!"
                 } else if (roll == 1) {

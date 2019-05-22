@@ -81,6 +81,7 @@ export default {
                 tempHitpoints: target.tempHitpoints, 
                 pPerception: target.pPerception, 
                 sanity: target.sanity, 
+                tempSanity: target.tempSanity, 
                 charisma: target.charisma,
                 weapons: target.weapons,
                 saveStat: target.saveStat,
