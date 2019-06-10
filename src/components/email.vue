@@ -20,7 +20,6 @@
           type="email"
           placeholder="CC"
           multiple
-          value
           :class="{highlighted: !oneFilledEmail}"
           @change="validateEmail()"
         >
@@ -31,7 +30,6 @@
           type="email"
           placeholder="BCC"
           multiple
-          value
           :class="{highlighted: !oneFilledEmail}"
           @change="validateEmail()"
         >
