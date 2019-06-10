@@ -1,416 +1,188 @@
+div,
+input,
+textarea,
+button {
+  box-sizing: border-box;
+}
 body {
-    background-image: url('https://images-na.ssl-images-amazon.com/images/I/51L6WWzQRsL._SX425_.jpg');
-    background-size: 100%;
-    font-family: "New Rocker", Century Gothic;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  background: linear-gradient(#00bef0, #4fd2dc) no-repeat;
+  height: 100vh;
+  font-family: helvetica;
+  margin: 0;
+  padding: 0;
 }
-
-.encounterList {
-    padding-left: 0;
-    list-style-type: none;
-}
-.storyBlock {
-    position: relative;
-    .storyRemoval {
-        position: absolute;
-        top: 15px;
-        right: 30px;
-        cursor: pointer;
-    }
-}
-.sideMenu {
-    position: fixed;
-    height: 80vh;
-    top: 60px;
-    width: 120px;
-    transition: .3s;
-    
-    ul {
-        list-style-type: none;
-        overflow-x: hidden;
-        height: 80vh;
-        top: 0;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.6);
-        width: 100px;
-        color: #fff;
-        text-align: center;
-        overflow: -moz-scrollbars-none; 
-        -ms-overflow-style: none;
-        &::-webkit-scrollbar { width: 0 !important; }
-        li {
-            margin: 15px 0;
-            cursor: pointer;
-            img {
-                cursor: pointer;
-                width: 80px;
-                height: 80px;
-                border: 3px solid #000;
-                border-radius: 50%;
-                background-color: #fff;
-            }
-            p {
-                margin-top: 3px;
-            }
-        
-        }
-    }
-}
-.rightMenu {
-    right: -120px;
-    ul {
-        right: 0;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        overflow-y: scroll;
-    }
-    
-}
-.leftMenu {
-    left: -120px;
-    ul {
-        left: 0;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        overflow-y: scroll;
-    }
-    
-}
-.npcMenuTab, .storyMenuTab {
-    top: 40px;
-}
-.monsterMenuTab, .beingsMenuTab {
-    top: 110px;
-}
-.sceneryMenuTab, .weaponryMenuTab {
-    top: 180px;
-}
-.inventoryMenuTab {
-    top: 250px;
-}
-.portentsMenuTab {
-    top: 320px;
-}
-.pantheonMenuTab {
-    top: 390px;
-}
-.locationsMenuTab {
-    top: 460px;
-}
-.menuTab {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    display: block;
-    line-height: 2.4rem;
-    text-align: center;
-    color: #fff;
-}
-.rightMenuTab {
-    left: -40px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-.leftMenuTab {
-    right: -40px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-.hiddenRightMenu {
-    right: 0;
-}
-.hiddenLeftMenu {
-    left: 0;
-}
-.encounterElement {
-    box-sizing: border-box;
-    margin: 15px;
-    background-color: rgba(191, 127, 63, .8);
-    border-radius: 5px;
-    position: relative;
-    padding: 20px;
-    color: #4C3823;
-    font-weight: 700;
-    border: 3px solid #7A542E;
-    img {
-        width: 80px;
-        height: 80px;
-        background-color: #fff;
-        border: 3px solid #4C3823;
-        border-radius: 50%;
-    }
-    .encounterStats {
-        list-style-type: none;
-        padding: 0;
-        
-    }
-    select {
-        border-radius: 4px;
-        border: 1px solid #000;
-        overflow: hidden;
-        padding: 4px;
-        font-family: Book Antiqua;
-        margin: 2px 0;
-        background-color: #F2EAE3;
-    }
-}
-.eElementRemoval {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    cursor: pointer;
-}
-.hitpointsBar {
-    height: 30px;
-    background-color: #ad1818;
-    line-height: 30px;
-    text-align: center;
-    border: 1px solid #000;
-    border-radius: 4px;
-    position: relative;
-
-}
-.tempHitpoints {
-    background-color: #36ad18;
-}
-.tempSanity {
-    background-color: #4785e8;
-}
-.tempHitpoints, .tempSanity {
-    border-radius: 4px;
-    height: 30px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.tempHtpText {
-    color: #fff;
-    font-weight: 700;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left:  0;
-}
-.statBox {
-    border: 2px solid #000;
-    background-color: #fff;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 300px;
-    flex-direction: column;
-    margin: 10px 0;
-    display: none;
-}
-.statNames, .statValues {
-    list-style-type: none;
-    padding: 0;
-    display: inline-flex;
-    color: #000;
-    li {
-        padding: 5px;
-        width: 30px;
-        height: 15px;
-        line-height: 15px;
-        text-align: center;
-    }
-}
-.statNames {
-    li {
-        margin: 5px 5px 0 5px;
-    }
-}
-.statValues {
-    font-size: 2.1rem;
-    li {
-        margin: 0px 5px 5px 5px;
-    }
-}
-.weaponChoice {
-    display: none;
-}
-.rollModal {
-    border: 3px solid #4C3823;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 30px;
-    width: 100%;
-    max-width: 280px;
-    left: calc(50% - 140px);
-    position: absolute;
-    top: calc(50vh - 120px);
-    h4 {
-        font-size: 2rem;
-        text-align: center;
-        margin: 0;
-    }
-}
-.d20 {
-    background-image: url('../assets/images/d20.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: #fff;
-    height: 225px;
-    width: 100%;
-    background-position-x: center;
-    h3 {
-        font-size: 2.5rem;
-        margin: 0;
-        line-height: 210px;
-        text-align: center;
-    }
-}
-.rollButtonContainer {
-    margin: 10px 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .rollButton {
-        background-color: transparent;
-        background-image: url('../assets/images/d20.png');
-        background-position-x: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        border: none;
-        color: #fff;
-        height: 100px;
-        max-width: 100px;
-        width: 100%;
-        h3 {
-            font-size: 2.5rem;
-            margin: 0;
-            line-height: 210px;
-            text-align: center;
-        }
-    }
-}
-
-.modalOverlay {
-    width: 100%;
-    display: none;
-    position: fixed;
-    height: 100vh;
-    background-color: rgba(0,0,0,.6);
-    top: 0;
-    left: 0;
-}
-.closeModal {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    cursor: pointer;
-    color: #000;
-}
-.buttonContainer {
-    margin: 10px 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    button {
-        margin: 0 10px;
-        border: 2px solid #000;
-        background-color: #c1c1c1;
-        padding: 4px;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-}
-.hidden {
-    display: none;
-}
-.modal {
-    display: none;
-    margin: 10px;
-    padding: 20px;
-    max-width: 500px;
-    border: 1px solid #4C3823;
-    opacity: 0;
-    transition: .3s;
-    position: relative;
-    input {
-        margin: 5px 0;
-        width: 100%;
-        padding: 5px;
-        box-sizing: border-box;
-        &::placeholder {
-            font-style: italic;
-        }
-    }
-}
-.logIn {
-
-}
-.signIn {
-    display: none;
-}
-.revealed {
-    display: flex;
-    flex-direction: column;
-    opacity: 1;
-}
-.close {
-    font-size: 2rem;
+.emailModal {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px grey;
+  max-width: 650px;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: calc(50% - 350px);
+  left: calc(50% - 325px);
+  &__content {
+    padding: 15px;
+  }
+  &__field {
     line-height: 2rem;
-    position: absolute;
-    top: 15px;
-    right: 15px;
+  }
+  &__field,
+  &__inputField {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+  }
+  &__inputField {
+    min-height: 185px;
+    overflow: auto;
+  }
 }
-.noAccount {
-    text-align: center;
-    text-decoration: underline;
-    color: blue;
-    font-size: .8rem;
-    cursor: pointer;
-}
-.loadedDisplayPanel {
-    width: calc(100% - 80px);
-    max-width: 950px;
-    border: 3px solid #4C3823;
-    background-color: rgba(191, 127, 63, 0.8);
-    border-radius: 5px;
-    padding: 15px;
+.emailSent {
+  display: hidden;
+  hr {
+    width: 80%;
     margin: 0 auto;
-    h2 {
-        text-align: center;
+  }
+  &__confirmationTick {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #a1a2a5;
+    .fa-check-circle {
+      color: #4bd59c;
+      font-size: 6rem;
+      text-align: center;
+      margin: 12% auto 40px;
+      width: 100%;
     }
+  }
+  &__contentBox {
+    width: 80%;
+    margin: 0 auto;
+    &--title {
+      margin: 40px 0 15px;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    &--recipient {
+      font-size: 0.9rem;
+      span {
+        color: #00bef0;
+      }
+    }
+    &--message {
+      padding: 30px 0;
+    }
+  }
+  i {
+    margin: 0 auto;
+  }
+}
+.emailHead {
+  background-color: #094358;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 15px;
+}
+.sendButton {
+  border: none;
+  border-radius: 18px;
+  font-weight: 700;
+  height: 35px;
+  width: 100px;
+  color: #a1a2a5;
+  float: right;
+}
+.realAttachButton {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.attachButton {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  color: #a1a2a5;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 35px;
+  width: 35px;
+}
+.attachmentList {
+  padding: 0;
+  display: inline-flex;
+  li {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
     img {
-        max-width: 30%;
-        @media only screen and (max-width: 768px) {
-            display: none;
-        }
+      margin-top: -70%;
+      margin-left: -100%;
+      width: 300%;
     }
-    ul {
-        list-style-type: none;
-        padding-left: 0;
+  }
+  &__delete {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0;
+    &:hover {
+      opacity: 0.8;
     }
-}
-.loadedDisplayContainer {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    box-sizing: border-box;
-    @media only screen and (max-width: 768px) {
-        display: block;
+    &--binButton {
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      margin: 25px auto;
+      background-color: #a1a2a5;
+      i {
+        font-size: 1.8rem;
+        margin: 12px 13px;
+        color: #fff;
+      }
     }
+  }
 }
-.description {
-    margin: 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    border: 1px solid #4C3823;
-    width: calc(70% - 30px);
-    background-color: rgba(255, 255, 255, .5);
-    border-radius: 5px;
-    @media only screen and (max-width: 768px) {
-        width: calc(100% - 30px);
-    } 
+.highlighted {
+  border: 1px solid red;
+  border-radius: 4px;
 }
-.story {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin: 10px 0;
+.inputFile {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  input[type="file"] {
+    font-size: 1px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    top: 0;
+    opacity: 0;
+  }
+}
+.activeSend {
+  background-color: #04b7e5;
+  cursor: pointer;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .emailModal {
+    width: calc(100% - 20px);
+  }
 }

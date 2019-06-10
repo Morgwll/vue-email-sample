@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <app-main-menu></app-main-menu>
-    <router-view></router-view>
+    <email-form></email-form>
   </div>
 </template>
 
 <script>
-import appMainMenu from './components/menus/MainMenu.vue'
+import emailForm from "./components/email.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    appMainMenu,
+    emailForm
   }
-}
+};
 </script>
  
